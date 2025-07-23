@@ -133,6 +133,7 @@ python val.py --config '{nano/small/medium/large}' --weight 'pretrained/{nano/sm
 
 ```shell
 python demo.py --config '{nano/small/medium/large}' --weight 'pretrained/{nano/small/medium/large}.pth' --source 'pretrained/{images/videos}'
+python demo.py   --config nano   --weight pretrained/nano.pth   --source video/test.mp4
 ```
 
 
